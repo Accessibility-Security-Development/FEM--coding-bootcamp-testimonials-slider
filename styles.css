@@ -76,7 +76,7 @@ main {
   color: blue;
 }
 
-.testimonial__two {
+.testimonial--display {
   display: none;
 }
 
