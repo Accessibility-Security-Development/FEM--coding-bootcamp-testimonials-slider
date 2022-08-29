@@ -26,7 +26,7 @@
 
 body {
   font-family: 'Chivo', sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
 
   display: flex;
   justify-content: center;
@@ -85,7 +85,7 @@ img {
   width: 80px;
   height: 40px;
   border-radius: 20px 20px;
-  top: 270px;
+  top: 16.875rem;
   z-index: 1;
   margin-left: 40%;
 
@@ -103,7 +103,7 @@ img {
 .slider__right {
   position: relative;
   top: 13px;
-  left: 16px;
+  left: 1rem;
   width: 25%;
   height: auto;
 }
@@ -122,13 +122,13 @@ img {
 }
 
 .container__text {
-  margin-top: 70px;
+  margin-top: 4.375rem;
 }
 
 .text__body {
   font-weight: 300;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
   text-align: center;
   color: var(--color-dark-blue);
   width: 80%;
@@ -137,17 +137,17 @@ img {
 
 .text__name {
   font-weight: 700;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.938rem;
+  line-height: 1.25rem;
   text-align: center;
   color: var(--color-dark-blue);
-  margin-top: 19px;
+  margin-top: 1.188rem;
 }
 
 .text__title {
   font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.938rem;
+  line-height: 1.25rem;
   text-align: center;
   color: var(--color-grayish-blue);
 }
@@ -165,15 +165,15 @@ img {
   img {
     width: 540px;
     height: 540px;
-    left: 370px;
+    left: 23.125rem;
     z-index: 1;
   }
 
   .slider {
     width: 112px;
     height: 56px;
-    top: 560px;
-    margin-left: 950px;
+    top: 35rem;
+    margin-left: 59.375rem;
     z-index: 2;
     border-radius: 40px 40px;
   }
@@ -181,53 +181,53 @@ img {
   .slider__left,
   .slider__right {
     position: relative;
-    top: 18px;
-    left: 20px;
+    top: 1.125rem;
+    left: 1.25rem;
     width: 25%;
     height: auto;
   }
 
   .container__text {
     position: relative;
-    margin-top: -300px;
-    top: 70px;
-    left: 100px;
+    margin-top: -18.75rem;
+    top: 4.375rem;
+    left: 6.25rem;
     width: 60%;
     z-index: 2;
   }
 
   .text__body {
     font-weight: 300;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 2rem;
+    line-height: 2.75rem;
     text-align: left;
     position: relative;
-    bottom: 150px;
+    bottom: 9.375rem;
   }
 
   .text__name {
-    margin-right: 280px;
+    margin-right: 17.5rem;
     position: relative;
-    top: -150px;
-    left: -145px;
-    font-size: 20px;
-    line-height: 38px;
+    top: -9.375rem;
+    left: -9.063rem;
+    font-size: 1.25rem;
+    line-height: 2.375rem;
   }
 
   .text__title {
-    font-size: 20px;
-    line-height: 38px;
+    font-size: 1.25rem;
+    line-height: 2.375rem;
   }
 
   .text__title--woman {
     position: relative;
-    top: -187px;
-    left: -145px;
+    top: -11.688rem;
+    left: -9.063rem;
   }
 
   .text__title--man {
     position: relative;
-    top: -187px;
-    left: -80px;
+    top: -11.688rem;
+    left: -5rem;
   }
 }
