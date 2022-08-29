@@ -58,6 +58,7 @@ main {
   width: 375px;
   height: auto;
   max-width: 375px;
+  max-height: 667px;
 }
 
 .attribution {
