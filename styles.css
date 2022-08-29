@@ -37,7 +37,6 @@ body {
 
 .container__page {
   position: relative;
-  min-height: 80vh;
 
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
@@ -52,13 +51,6 @@ body {
   background-size: 327px 308px, 60px 50px, 285px 72px;
 
   padding-bottom: 5rem; /* Footer height */
-}
-
-main {
-  width: 375px;
-  height: auto;
-  max-width: 375px;
-  max-height: 667px;
 }
 
 .attribution {
