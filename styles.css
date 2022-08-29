@@ -151,3 +151,83 @@ img {
   text-align: center;
   color: var(--color-grayish-blue);
 }
+
+@media screen and (min-width: 1440px) {
+  .container__page {
+    max-width: 1440px;
+  }
+
+  .container__content {
+    background-position: 95% 5%, 20% 27%, 0% 100%;
+    background-size: 650px 424px, 120px 100px, 610px 150px;
+  }
+
+  img {
+    width: 540px;
+    height: 540px;
+    left: 370px;
+    z-index: 1;
+  }
+
+  .slider {
+    width: 112px;
+    height: 56px;
+    top: 560px;
+    margin-left: 950px;
+    z-index: 2;
+    border-radius: 40px 40px;
+  }
+
+  .slider__left,
+  .slider__right {
+    position: relative;
+    top: 18px;
+    left: 20px;
+    width: 25%;
+    height: auto;
+  }
+
+  .container__text {
+    position: relative;
+    margin-top: -300px;
+    top: 70px;
+    left: 100px;
+    width: 60%;
+    z-index: 2;
+  }
+
+  .text__body {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: left;
+    position: relative;
+    bottom: 150px;
+  }
+
+  .text__name {
+    margin-right: 280px;
+    position: relative;
+    top: -150px;
+    left: -145px;
+    font-size: 20px;
+    line-height: 38px;
+  }
+
+  .text__title {
+    font-size: 20px;
+    line-height: 38px;
+  }
+
+  .text__title--woman {
+    position: relative;
+    top: -187px;
+    left: -145px;
+  }
+
+  .text__title--man {
+    position: relative;
+    top: -187px;
+    left: -80px;
+  }
+}
