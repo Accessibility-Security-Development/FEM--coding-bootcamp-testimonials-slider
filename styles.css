@@ -22,7 +22,7 @@
 
 .focus-only {
   opacity: 0;
-  font-size: 0.5rem;
+  font-weight: bold;
 }
 
 .focus-only:focus-visible {
