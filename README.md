@@ -17,6 +17,7 @@ Tools used to test accessibility: -Axe dev tools extention (general accessibilit
 Accessibility checklist for reference: https://www.a11yproject.com/checklist/
 Creating combinations with sufficient contrast: https://snook.ca/
 
-Screen reader accessibility: Tested with NVDA.
+Screen reader accessibility: tested with NVDA. 
+Keyboard accessibility: focus outline added. 
 
 Testing suite: Not included.
