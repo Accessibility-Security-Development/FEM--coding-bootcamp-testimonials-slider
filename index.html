@@ -21,21 +21,11 @@
 </head>
 
 <body>
-  <header>
-    <a href="#main" class="sr-only">Hello screen reader user! To skip to main content press enter and navigate through
-      the
-      website with up and down arrows</a>
-    <!-- Element only visible to screen readers-->
-  </header>
-
   <div class="container__page">
     <div class="container__content">
       <main id="main">
+        <a href="#main" class="focus-only">Skip to main content.</a>
 
-        <div class="slider">
-          <img class="slider__left" id="previous" src="images/icon-prev.svg" alt="slider left">
-          <img class="slider__right" id="next" src="images/icon-next.svg" alt="slider right">
-        </div>
 
         <div class="testimonial" id="testimonial-1">
           <img src="images/image-tanya.jpg" alt="Tanya's photo">
@@ -46,7 +36,6 @@
             <p class="text__name">Tanya Sinclair</p>
             <p class="text__title text__title--woman">UX Engineer</p>
           </div>
-
         </div>
 
         <div class="testimonial testimonial--display" id="testimonial-2">
@@ -58,6 +47,13 @@
             <p class="text__name">John Tarkpor</p>
             <p class="text__title text__title--man">Junior Front-end Developer</p>
           </div>
+        </div>
+
+        <div class="slider">
+          <button><img class=" slider__left" id="previous" src="images/icon-prev.svg" alt="slider left">
+          </button>
+          <button><img class=" slider__right" id="next" src="images/icon-next.svg" alt="slider right">
+          </button>
         </div>
       </main>
     </div>
