@@ -61,7 +61,7 @@ body {
 
 .attribution {
   position: absolute;
-  bottom: -70px;
+  top: calc(100% + 10px);
   width: 100%;
   height: 2.5rem; /* Footer height */
 
