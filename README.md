@@ -5,7 +5,7 @@ This is a Frontend Mentor challenge and the associated Figma file was provided b
 The focus of this project was the creation of the slider in JavaScript <br/> and its accessibility optimisation in accordance with the a11y project checklist. 
 <br/>BEM has also been used. 
 
-Responsiveness: Tested with Responsively for various devices (but not every existing device).
+Responsiveness: Tested with Responsively for various devices (but not for every existing device).
 
 HTML validation validation tool used: Nu Html Checker - https://validator.w3.org/nu/
 
